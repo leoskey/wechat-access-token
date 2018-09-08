@@ -8,10 +8,19 @@ const appConfig = {
 };
 
 describe('wechat-access-token', () => {
-  beforeEach(async() => {
+  before(async() => {
     const client = new WechatAccessToken('redis://:@127.0.0.1:6379');
-    await client.redis.del(`wechat_access_token/${appConfig.appID}`);
     this.client = client;
+
+  });
+
+  after(async() => {
+    this.client.redis.quit();
+
+  });
+
+  beforeEach(async() => {
+    await this.client.redis.del(`wechat_access_token/${appConfig.appID}`);
 
   });
 

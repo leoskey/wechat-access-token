@@ -7,8 +7,8 @@
   "author": "leoskey",
   "license": "Apache-2.0",
   "scripts": {
-    "test": "mocha",
-    "test:cover": "istanbul cover ./node_modules/mocha/bin/_mocha"
+    "test": "mocha --exit",
+    "test:cover": "istanbul cover ./node_modules/mocha/bin/_mocha -- --exit"
   },
   "dependencies": {
     "axios": "^0.18.0",
