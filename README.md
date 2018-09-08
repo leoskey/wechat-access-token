@@ -13,6 +13,9 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
+# WeChat Access Token
+
+[![Build Status](https://travis-ci.org/leoskey/wechat-access-token.svg?branch=dev)](https://travis-ci.org/leoskey/wechat-access-token)
 
 # Quick Start
 
