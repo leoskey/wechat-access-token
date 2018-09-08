@@ -16,6 +16,7 @@
 # WeChat Access Token
 
 [![Build Status](https://travis-ci.org/leoskey/wechat-access-token.svg?branch=dev)](https://travis-ci.org/leoskey/wechat-access-token)
+[![Coverage Status](https://coveralls.io/repos/github/leoskey/wechat-access-token/badge.svg?branch=master)](https://coveralls.io/github/leoskey/wechat-access-token?branch=master)
 
 # Quick Start
 
