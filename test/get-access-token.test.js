@@ -3,8 +3,8 @@ const assert = require('power-assert');
 const { WechatAccessToken, WechatAccessTokenError } = require('../lib/wechat-access-token');
 
 const appConfig = {
-  appID: 'wx5feba7d2251e01e6',
-  appSecret: '4b05a7bf62886a13ba06e13f1414d36e'
+  appID: 'wx0b35433342ed6d59',
+  appSecret: '4f37ade72ee18fbc927cac0dc670ca2b'
 };
 
 describe('wechat-access-token', () => {
