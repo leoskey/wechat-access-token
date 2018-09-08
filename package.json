@@ -6,9 +6,18 @@
   "repository": "https://github.com/leoskey/wechat-access-token.git",
   "author": "leoskey",
   "license": "Apache-2.0",
+  "scripts": {
+    "test": "mocha --exit",
+    "test:cover": "istanbul cover ./node_modules/mocha/bin/_mocha -- --exit"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "debug": "^3.1.0",
     "ioredis": "^4.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.0"
   }
 }
